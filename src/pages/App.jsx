@@ -26,11 +26,11 @@ function App() {
         <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] rounded-full bg-indigo-500/10 blur-[120px]"></div>
       </div>
 
-      <div className="relative z-10 max-w-2xl mx-auto px-4 py-12 md:py-20 flex flex-col items-center">
+      <div className="relative z-10 max-w-2xl mx-auto px-4 pt-20 pb-12 md:py-20 flex flex-col items-center">
         {/* Theme Toggle */}
         <button 
           onClick={toggleTheme}
-          className="absolute top-6 right-6 p-2 rounded-full bg-white/10 dark:bg-white/5 border border-white/20 dark:border-white/10 backdrop-blur-md shadow-lg hover:scale-110 transition-transform cursor-pointer"
+          className="absolute top-4 right-4 md:top-8 md:right-8 z-50 p-2 rounded-full bg-white/10 dark:bg-white/5 border border-white/20 dark:border-white/10 backdrop-blur-md shadow-lg hover:scale-110 transition-transform cursor-pointer"
           aria-label="Toggle theme"
         >
           {theme === "light" ? (
