@@ -24,3 +24,9 @@ dist-ssr
 *.sw?
 #env
 .env
+
+#agent 
+.agent
+
+#docs
+quotation_data.js

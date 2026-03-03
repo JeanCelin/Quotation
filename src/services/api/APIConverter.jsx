@@ -72,8 +72,8 @@ export default function APIConverter({ selectedCoinCode }) {
         setCurrencyCode(exchangeData.codein);
         setCurrency1Name(currency1);
         setCurrency2Name(currency2);
-        setCurrency1Amount(fetchedRate);
-        setCurrency2Amount(1);
+        setCurrency1Amount(1);
+        setCurrency2Amount(fetchedRate);
       } catch (error) {
         setError(error);
       } finally {

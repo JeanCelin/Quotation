@@ -32,7 +32,7 @@ Para executar este projeto localmente, siga os passos abaixo:
 
    ```bash
    git clone https://github.com/JeanCelin/Cotation
-   cd cotation
+   cd Quotation
    ```
 
 2. Instale as dependências:
